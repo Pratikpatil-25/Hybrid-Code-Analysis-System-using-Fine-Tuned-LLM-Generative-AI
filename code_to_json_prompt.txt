@@ -1,0 +1,9 @@
+Analyze the Java code and return STRICT JSON : 
+{ 
+"instruction": "Analyze the Java code.", 
+"input": " ", 
+"output": { "time_complexity": "string", 
+"space_complexity": "string", 
+"explanation": "string", 
+"optimization": "string" },
+"category": "sorting or searching or recursion or algorithm" }

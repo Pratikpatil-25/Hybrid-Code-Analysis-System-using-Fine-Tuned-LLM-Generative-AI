@@ -1,0 +1,25 @@
+code_insight_backend/
+│
+├── app/
+│   ├── main.py
+│   ├── api/
+│   │   └── routes.py
+│   │
+│   ├── core/
+│   │   ├── config.py
+│   │   ├── prompt_builder.py
+│   │   └── merger.py
+│   │
+│   ├── services/
+│   │   ├── gemini_service.py
+│   │   └── codellama_service.py
+│   │
+│   ├── schemas/
+│   │   └── request.py
+│   │
+│   └── utils/
+│       └── json_parser.py
+│
+├── .env
+├── requirements.txt
+└── README.md

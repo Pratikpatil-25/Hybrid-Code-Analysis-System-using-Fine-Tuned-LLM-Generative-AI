@@ -1,0 +1,25 @@
+class Solution{
+    public static boolean isPowerofTwo(long n){
+        if(n<=0){
+            return false;
+        }
+        else if((n&n-1)==0){
+            return true;
+        }
+        return false;
+    }
+}
+
+class Solution{
+    public boolean isPowerOfTwo(int n) {
+        if(n==0){
+            return false;
+        }else if(n==1){
+            return true;
+        }else if(n%2!=0){
+            return false;
+        }else{
+            return isPowerOfTwo(n/2);
+        }
+    }
+}
